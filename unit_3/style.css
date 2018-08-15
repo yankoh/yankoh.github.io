@@ -1,0 +1,29 @@
+
+
+body {
+  text-align: center;
+  background: url("lakewithdock.jpg");
+  background-size: cover;
+  color: #101935;
+  font-family: "helvetica";
+
+}
+
+
+#slogan{
+	font-style: italic;
+}
+
+
+h2{
+	font-weight: normal;
+}
+
+
+p{
+  font-size: 12px;
+  
+}
+
+
+
