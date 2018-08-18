@@ -1,0 +1,130 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Open+Sans|Shadows+Into+Light');
+
+body{
+  text-align: center;
+  background: #fff;
+  background-size: cover;
+  color: #101935;
+  font-family: "helvetica";
+  font-size: 14px;
+}
+
+div{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+header{
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav{
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+	text-transform: uppercase;
+	font-family:"open sans";
+	font-size: 1.5em;
+	font-weight: bold;
+	letter-spacing: -1px;
+	margin: 0;
+	padding: 0;
+
+}
+
+aside{
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+
+}
+
+section{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+img{
+	display: block;
+	margin: 0 auto;
+	padding: 0 1em;
+	width: 500px;
+}
+
+
+article{
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+p{
+	width: 500px;
+	margin: 0 auto;
+	padding: 0 1em;
+	line-height: 1.5em;
+}
+
+footer{
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+	text-align:center;
+}
+
+
+
+h1{
+	font-family:"shadows into light";
+	font-style: black;
+	font-size: 4em;
+	line-height: 1.5em;
+	border-bottom: 5px solid black;
+	display: inline;
+	background-color:#fff;
+	padding: 0 auto;
+}
+
+h3{
+  text-transform: uppercase;
+  border-bottom: 4px solid black;
+  display: inline-block;
+  text-align: left;
+}
+
+#slogan{
+	font-weight: normal;
+	font-family: "open sans";
+	font-size: 1em;
+	line-height:.5em;
+	margin: 2em;
+	background-color:#eee;
+
+
+
+#description{
+	width: 560px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: "pt serif";
+    font-size: 1em;
+    line-height: 1.75em;
+    background-color: #eee;
+    padding: 1em 0 2em 0;
+
+}
+
+
+
+
+
+
