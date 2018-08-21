@@ -28,7 +28,7 @@ nav{
 	border: 1px black solid;
 	padding: 20px;
 	text-transform: uppercase;
-	font-family:"open sans";
+	font-family:'open sans';
 	font-size: 1.5em;
 	font-weight: bold;
 	letter-spacing: -1px;
@@ -103,7 +103,7 @@ h3{
 
 #slogan{
 	font-weight: normal;
-	font-family: "open sans";
+	font-family: 'open sans';
 	font-size: 1em;
 	line-height:.5em;
 	margin: 2em;
