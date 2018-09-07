@@ -53,7 +53,7 @@ nav{
 	font-weight: bold;
 	letter-spacing: -0.1em;
 	float: right;
-	color:#222;
+	color:#456990;
 	padding-right: 1em;
 	background-color: #;
 
@@ -116,6 +116,7 @@ h3{
   margin: auto;
   font-weight: bolder;
   font-size: 2.5em;
+  color: #3d3d3d;
   word-spacing: 0.1em;
   font-family: "crimson text";
 
@@ -350,7 +351,7 @@ h2{
 	background: ;
     background-size: cover;
 	color: #3d3d3d;
-	margin-top: 1em;
+	margin-top: 0em;
 	margin-bottom: 2em;
 
 }
@@ -362,7 +363,7 @@ h2{
 	background-color:#;
     color:#3d3d3d;
 	border: 0em black solid;
-	padding-top: 1em;
+	padding-top: 0em;
 	padding-bottom: .5em;
 	padding-left: 3em;
 	padding-right: 5em;
@@ -395,7 +396,7 @@ h2{
 	border: 0px black solid;
 	box-sizing: border-box;
 	width: %;
-	height: x;
+	min-height: 500px;
 	background: url("mountains-copy.jpg");
     background-size: cover;
     margin-top: 0em;
@@ -431,7 +432,6 @@ h2{
 	font-size: 1.2em;
 	line-height: 1.5em;
 	
-
 }
 
 #self-kindness-right {
@@ -452,4 +452,471 @@ h2{
 	font-family: 'raleway';
 	font-size: 1em;
 }
+
+
+@media (max-width: 1196px) {
+ 
+  #self-kindness-left {
+  	width: 52%;
+  }
+
+  #self-kindness-right {
+  	width: 48%;
+  }
+
+}
+
+@media only screen and (max-width: 1130px)  {
+  
+  header {
+  	text-align: center;
+  }
+
+
+  nav {
+    float: none;
+    text-align: center;
+  }
+
+  nav a {
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-top: 0.2em;
+  }
+
+#wrapper {
+	border: 0px black solid;
+	padding:
+	margin: 0 auto;
+	text-align: center;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+#text-box {
+	border: 0px red solid;
+	background-color:
+	width: 100%;
+	line-height: 0em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+  #slogan {
+	color: #fff;
+	border: 0px #222 solid;
+	line-height: 1.75em;
+	background-color: rgba(250,250,250,0.4);
+	text-align: center;
+	width:90%;
+}
+
+
+
+#center {
+	color: #222;
+	background-color:#;
+	border: 0px black solid;
+	text-align: center;
+	padding-right: 2em;
+	padding-left: 2em;
+}
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+
+#mindfulness {
+	padding: 0;
+	margin-top: 1em;
+	width: 100%;
+	border: 0em black solid;
+	display: block;
+	min-height: 750px;
+		
+
+}
+
+#mindful-left{
+	float:none;
+	margin-top: 4em;
+	margin-bottom: 2em;
+	padding: 0;
+	border: 0px black solid;
+	min-height: 60px;
+	width: 100%;
+	text-align: center;
+	
+}
+
+#mindful-right {
+	float: none;
+	margin-right: 5em;
+	margin-left: 7em;
+	margin-top: 0.5em;
+
+	padding-top: 0em;
+	border: 0px red solid;
+	box-sizing: border-box;
+	display: block;
+	width: 75%;
+
+}
+
+
+#mindful {
+	float: none;
+	margin: 0;
+	display: block;
+	border: 0em red solid;
+	padding-right: 2em;
+	padding-top:0.25em;
+	width: 100%;
+	min-height: 
+}
+
+#self-kindness {
+	padding: 0;
+	margin-top: 2em;
+	margin-bottom:2em;
+	width: 100%;
+	border: 0em black solid;
+	display: block;
+	min-height: 700px;
+
+
+}
+
+#self-kindness-right{
+	float:none;
+	margin-top: 4em;
+	margin-bottom: 1em;
+	padding: 0;
+	border: 0px black solid;
+	min-height: 60px;
+	width: 100%;
+	
+}
+
+#self-kindness-left {
+	float: none;
+	margin-right: 5em;
+	margin-left: 7em;
+	margin-top: 0.5em;
+	padding-top: 0em;
+	border: 0px red solid;
+	box-sizing: border-box;
+	display: block;
+	width: 75%;
+
+}
+
+
+#kindness {
+	float: none;
+	margin: 0;
+	display: block;
+	border: 0em red solid;
+	padding-right: 2em;
+	padding-top:0.25em;
+	width: 100%;
+	min-height: px;
+}
+
+}
+
+@media only screen and (max-width: 888px) {
+
+
+#gettingstarted {
+	padding: 0;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	width: 100%;
+	border: 0em black solid;
+	display: block;
+	min-height: 700px;
+
+}
+
+
+#left{
+	float:none;
+	margin-top: 1em;
+	margin-bottom: 0em;
+	margin-right: 0em;
+	border: 0px red solid;
+	min-height: 100px;
+	width: 100%;
+	text-align: left;
+	
+	
+}
+
+#right {
+	float: none;
+	margin-right: 5em;
+	margin-left: 7em;
+	margin-top: 0.5em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+
+	padding-top: 0em;
+	border: 0px red solid;
+	box-sizing: border-box;
+	display: block;
+	width: 75%;
+
+}
+
+
+
+
+}
+
+@media only screen and (max-width: 860px) {
+
+
+h3 {
+	font-size: 2em;
+}
+
+#wrapper {
+	border: 0px black solid;
+	padding: 4em 1.5em;
+	margin: 2em ;
+	text-align: center;
+}
+
+
+
+#text-box {
+	border: 0px red solid;
+	background-color:
+	width: 100%;
+	line-height: 0em;
+	text-align: center;
+	margin-top: 4em;
+	
+}
+
+  #slogan {
+	color: #fff;
+	border: 0px #222 solid;
+	line-height: 1.75em;
+	background-color: rgba(250,250,250,0.4);
+	text-align: center;
+	width:100%;
+	padding-top:1em;
+	padding-right:0em;
+	padding-left: 0em;
+
+}
+
+
+
+#center {
+	color: #222;
+	background-color:#;
+	border: 0px black solid;
+	text-align: center;
+	
+	
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 830px) {
+
+#mindfulness{
+	min-height: 850px;
+}
+
+#self-kindness {
+	min-height: 800px;
+}
+
+}
+
+@media only screen and (max-width: 830px) {
+
+nav {
+	margin-right:1em;
+	font-size: 1.5em;
+}
+
+
+#common-humanity {
+	padding: 0;
+	margin-top: 1em;
+	margin-bottom:2em;
+	width: 100%;
+	border: 0em black solid;
+	display: block;
+	min-height: 700px;
+
+
+}
+
+#humanity-left{
+	float:none;
+	margin-top: 1em;
+	margin-bottom: 0em;
+	padding: 0em;
+	border: 0px black solid;
+	min-height: 100px;
+	width: 100%;
+	
+}
+
+#humanity-right {
+	float: none;
+	margin-right: 5em;
+	margin-left: 6em;
+	margin-top: 0.5em;
+	padding-top: 0em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	border: 0px red solid;
+	box-sizing: border-box;
+	display: block;
+	width: 75%;
+
+}	
+
+
+}
+
+
+@media only screen and (max-width: 678px) {
+
+nav {
+	
+	font-size: 1.5em;
+	display: block;
+	text-align: center;
+
+}
+
+nav a {
+	margin: 0em 1em 1em;
+
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 520px) {
+
+nav {
+display: none;
+
+}
+
+#text-box {
+	margin-top: 0em;
+}
+
+.link{
+	text-transform: uppercase;
+	font-family:'open sans';
+    background-color: #fff;
+	border: 0.1em #333951 solid;
+	letter-spacing: -.1em;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: 0.75em;
+	line-height: 0em;
+	box-sizing: border-box;	
+	text-align: center;
+	display: inline-block;
+	margin-top: 1.75em;
+
+}
+
+@media only screen and (max-width: 480px) {
+
+#gettingstarted {
+	border: 0px red solid;
+	width: 100%;
+}
+
+#getting-started, h2 {
+	font-size: 2.5em;
+	margin-left: 0em;
+	margin-right:0em;
+	padding-left: 0em;
+	padding-right: 0em;
+	position: relative;
+	text-align: center;
+
+
+}
+
+#left {
+	margin: 0em;
+	padding: 0em;
+}
+
+#right {
+	border: 0px black solid;
+	width: 100%;
+	margin-top: 0em;
+	margin-left: 0em;
+	padding: 0.75em;
+	font-size: 1.5em;
+	width:100%;
+	min-height: 500px;
+}
+
+
+#mindfulness {
+	border: 0px red solid;
+	width: 100%;
+	padding-top: 0em;
+	padding-bottom: 1em;
+	min-height: 500px;
+}
+
+
+
+#mindful-left {
+	margin: 0em;
+	padding: 0em;
+}
+
+#mindful-right {
+	border: 0px black solid;
+	width: 100%;
+	margin-top: 0em;
+	margin-left: 0em;
+	font-size: 1.5em;
+	width:100%;
+	min-height: 500px;
+}
+
+#mindful {
+	padding: 1em;
+}
+
+
+
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+
+}
+
+
+
+
 
