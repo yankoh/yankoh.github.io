@@ -186,6 +186,14 @@ ul{
 	line-height: 1em;
 }
 
+
+img {
+	width: 135px;
+	margin-top:1.5em;
+	display: inline-block;
+	
+}
+
 #center {
 	border: 0px black solid;
 	font-family: "Noto Serif KR", sans-serif;
@@ -641,7 +649,7 @@ nav a {
 
 
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 550px) and (min-width:200px) {
 
 h1{
 	font-size: 1.5em;
@@ -743,55 +751,61 @@ header{
 	text-decoration: none;
 	color: #333951;
 	display: inline-block;
-	padding: 1em 0.8em 1em 0.8em ; 
+	padding: 1.2em 0.8em 1.2em 0.8em ; 
 	background-color: #fff;
-	border: 0.5em #333951 solid;
+	border: 0.2em #333951 solid;
 	margin-top: 1em;
 
 
 
 }
 
+h2 {
+	font-size: 1.85em;
+	padding: 0em;
+	line-height: 0em;
+}
 
 
-
+img{
+	display:none;
+}
 
 
 #gettingstarted {
 	border: 0px red solid;
 	width: 100%;
-	min-height: 0px;
-}
-
-#getting-started, h2 {
-	font-size: 1em;
-	margin-left: 1.5em;
-	margin-right:0em;
-	padding-left: 0em;
-	padding-right: 0em;
-	position: relative;
-	text-align: left;
+	float: none;
+	padding: 1em;
 
 }
-
 
 
 #left {
-	margin: 0em;
-	padding: 0em;
+	float:none;
+	margin: 0 auto;
+	width: 100%;
+	min-height:0px;
+	border: 0px red solid;
+	font-color: #222;
+	text-align: left;
+	padding: 0.5em 0em 0.5em 0em;
+
+	
 }
 
+
 #right {
+	float:none;
 	border: 0px black solid;
 	width: 100%;
-	margin-top: 0em;
-	margin-left: 1em;
-	padding-left: 1em;
-	padding-right: 1em;
 	font-size: 1em;
-	width:100%;
 	min-height: 0px;
-	font-size: 0.75em;
+	font-size: 1.1em;
+	font-color: #222;
+	margin: 0em;
+	padding-top:0em;
+	
 }
 
 
