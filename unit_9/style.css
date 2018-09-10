@@ -786,10 +786,10 @@ img{
 	margin: 0 auto;
 	width: 100%;
 	min-height:0px;
-	border: 0px red solid;
-	font-color: #fff;
+	color: #000;
 	text-align: left;
 	padding: 0.5em 0em 0.5em 0em;
+	border: 0px red solid;
 
 	
 }
@@ -800,8 +800,10 @@ img{
 	border: 0px black solid;
 	width: 100%;
 	min-height: 0px;
+	font-family: 'open sans';
+	font-style: bolder;
 	font-size: 1.2em;
-	font-color: #fff;
+	color: #000;
 	margin: 0em;
 	padding-top:0em;
 	padding-bottom:0em;
@@ -810,40 +812,91 @@ img{
 
 
 #mindfulness {
-	border: 5px red solid;
+	border: 0px red solid;
 	width: 100%;
+	float: none;
+	padding-right:2em;
+	padding-left:2em;
+}
+
+h4{
+	font-size: 1.5em;
 	padding-top: 0em;
-	padding-bottom: 1em;
-	min-height: 500px;
+	padding-bottom:0em;
+	line-height: 2em;
+
 }
 
-
-
-#mindful-left {
-	margin: 0em;
-	padding: 0em;
-}
-
-#mindful-right {
+#line {
 	border: 0px black solid;
-	width: 100%;
-	margin-top: 0em;
-	margin-left: 0em;
-	font-size: 1em;
 	width:100%;
-	min-height: 500px;
+	text-align: center;
+	padding-top: 0em;
+    padding-bottom: 0em;
+    padding-right: 0em;
+    padding-left: 0em;
+	line-height: 0;
+	margin: 0 auto;
 }
 
-#mindful {
-	padding: 1em;
+
+hr {
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-right: 0em;
+    padding-left: 0em;
+    margin: 0;
+    width: 90%;
+    border-top: 1px solid #ccc;
+    
 }
 
 
+.read-more { 
+	border: 0em red solid;
+	text-transform: uppercase;
+	font-family:'Montserrat';
+	letter-spacing: 0em;
+	font-weight: 600;
+	font-size: 0.75em;
+	letter-spacing: -0.05em;
+	text-align: center;
+	display: inline-block;
+	margin-top: 0.75em;
+	text-decoration: none;
 
 }
 
+.read-style {	
+	text-decoration: none;
+	color: #333951;
+	display: inline-block;
+	border: 1em black solid;
+	padding: 0.5em 0.7em 0.5em 0.7em ; 
+	background-color: #fff;
+	border: 0.2em #333951 solid;
+
+}
+
+#common-humanity {
+	border: 0px red solid;
+	width: 100%;
+	float: none;
+	padding-right:2em;
+	padding-left:2em;
+}
 
 
+#self-kindness {
+	border: 0px red solid;
+	width: 100%;
+	float: none;
+	padding-right:2em;
+	padding-left:2em;
+}
+
+
+}
 
 
 
