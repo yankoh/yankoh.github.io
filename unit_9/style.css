@@ -761,7 +761,7 @@ header{
 }
 
 h2 {
-	font-size: 1.85em;
+	font-size: 1.5em;
 	padding: 0em;
 	line-height: 0em;
 }
@@ -776,7 +776,7 @@ img{
 	border: 0px red solid;
 	width: 100%;
 	float: none;
-	padding: 1em;
+	padding: 2em;
 
 }
 
@@ -787,7 +787,7 @@ img{
 	width: 100%;
 	min-height:0px;
 	border: 0px red solid;
-	font-color: #222;
+	font-color: #fff;
 	text-align: left;
 	padding: 0.5em 0em 0.5em 0em;
 
@@ -799,12 +799,12 @@ img{
 	float:none;
 	border: 0px black solid;
 	width: 100%;
-	font-size: 1em;
 	min-height: 0px;
-	font-size: 1.1em;
-	font-color: #222;
+	font-size: 1.2em;
+	font-color: #fff;
 	margin: 0em;
 	padding-top:0em;
+	padding-bottom:0em;
 	
 }
 
