@@ -649,7 +649,7 @@ h1{
 }
 
 h3 {
-	font-size: 1.8em;
+	font-size: 1.85em;
 }
 
 nav {
@@ -672,8 +672,9 @@ header{
 
 	border: 0px black solid;
 	padding: 2%;
-    min-height: 425px;
+    
     background-size: cover;
+    min-height: px;
 
 }
 
@@ -683,7 +684,7 @@ header{
 	margin:0;
 	border: 0px black solid;
 	width: 100%;
-	min-height: 425px;
+	min-height: 440px;
 
 
 }
@@ -714,13 +715,13 @@ header{
 #center {
 	font-size: 1.1em;
 	line-height: 1.6em;
-	border: 2px black solid;
+	border: 0px black solid;
 	display: block;
-	min-height: 100px;
 	word-wrap: break-word;
 	width: 100%;
 	margin:0 auto;
 	padding: 0.75em 0em 0em 0em;
+	border: 0px black solid;
 
 }
 
@@ -735,7 +736,6 @@ header{
 	letter-spacing: -0.05em;
 	text-align: center;
 	display: inline-block;
-	margin-top: 0em;
 	text-decoration: none;
 }
 
@@ -743,10 +743,10 @@ header{
 	text-decoration: none;
 	color: #333951;
 	display: inline-block;
-	border: 0em black solid;
 	padding: 1em 0.8em 1em 0.8em ; 
 	background-color: #fff;
 	border: 0.5em #333951 solid;
+	margin-top: 1em;
 
 
 
