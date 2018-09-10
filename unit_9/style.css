@@ -714,7 +714,7 @@ header{
 #center {
 	font-size: 1.1em;
 	line-height: 1.6em;
-	border: 0px black solid;
+	border: 2px black solid;
 	display: block;
 	min-height: 100px;
 	word-wrap: break-word;
