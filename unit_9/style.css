@@ -942,7 +942,7 @@ img{
 #text-box{
 	border: 0px red solid;
 	width:100%;
-	padding: 1em 0em 0em 0em;
+	padding: 0em 0em 0em 0em;
 	margin: 0 auto;
 
 }
@@ -1001,11 +1001,6 @@ img{
 }
 
 }
-
-
-
-
-@media only screen and (max-width:683px) {
 
 
 
@@ -1082,7 +1077,7 @@ header{
 
 #center {
 	font-size: 1.1em;
-	line-height: 1.6em;
+	line-height: 1.4em;
 	border: 0px black solid;
 	display: block;
 	word-wrap: break-word;
@@ -1162,7 +1157,8 @@ img{
 	min-height: 0px;
 	font-family: 'open sans';
 	font-style: bolder;
-	font-size: 1.2em;
+	font-size: 1.1em;
+	line-height: 1.4em;
 	color: #000;
 	margin: 0em;
 	padding-top:0em;
