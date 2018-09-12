@@ -45,7 +45,7 @@ body{
 
 .hero{
 
-	border: 2px black solid;
+	border: 0px black solid;
 	padding: 1em;
 	background: url("main.jpg");
     background-size: cover;	
@@ -188,7 +188,7 @@ ul{
 
 
 img {
-	width: 135px;
+	width: 180px;
 	margin-top:1.5em;
 	display: inline-block;
 	
@@ -369,7 +369,6 @@ hr {
 	font-family: 'open sans';
 	font-size: 1.2em;
 	line-height: 1.7em;
-	border: 0px black solid;
 	padding-right: 14.5em;
 	padding-left: 14.5em;
 	margin-bottom:3em;
@@ -426,7 +425,6 @@ hr {
 	font-family: 'open sans';
 	font-size: 1.2em;
 	line-height: 1.7em;
-	border: 0px black solid;
 	padding-right: 14.5em;
 	padding-left: 14.5em;
 	margin-bottom:3em;
@@ -447,7 +445,6 @@ hr {
 	font-family: 'open sans';
 	font-size: 1.2em;
 	line-height: 1.7em;
-	border: 0px black solid;
 	padding-right: 14.5em;
 	padding-left: 14.5em;
 	margin-bottom:3em;
@@ -460,32 +457,27 @@ hr {
 
 
 
+@media only screen and (max-width: 5000px) and (min-width: 790px){
 
-@media only screen and (min-width:980px) {
-
-.container {
+	.container {
 	display:none;
+}
+}
+
+@media only screen and (max-width: 1195px) {
+
+strong{
+	font-size: 1.6em;
+	}
 
 }
 
 
-}
-
-@media only screen and (max-width:980px) {
-
-nav {
-	display:none;
-
-}
-}
-
-
-@media only screen and (max-width: 1184px) {
+@media only screen and (max-width: 1183px) {
 
 #line {
 	border: 0em black solid;
 	width:100%;
-	text-align: center;
 }
 
 hr {
@@ -497,52 +489,47 @@ hr {
 
 #gettingstarted {
 
-	border: 2px red solid;
+	border: 0px red solid;
 	padding: 3em 8em 4em 6em;
 
 }
 
 #mindfulness {
-	border: 2px red solid;
+	border: 0px red solid;
 	padding-right:12em;
 	padding-left:12em;
 
 }
 
 #common-humanity {
-	border: 2px red solid;
+	border: 0px red solid;
 	padding: 0em 12em;
 
 }
 
 #self-kindness {
 	
-	border: 3px red solid;
+	border: 0px red solid;
 	padding: 0em 12em;
 }
-
-
-
 }
 
-@media only screen and (max-width: 1130px) {
 
 
-#gettingstarted {
 
-	border: 2px black solid;
-	padding: 3em 6em 4em 4em;
-	font-size: 1em;
 
+
+
+@media only screen and (max-width: 1061px) {
+
+strong {
+	font-size:1.5em;
 }
-}
 
-@media only screen and (max-width: 1080px) {
 
-strong{
-  font-size: 1.5em;
 
-}
+@media only screen and (max-width: 1020px) {
+
 
 h4 {
 	font-size: 2em;
@@ -551,7 +538,8 @@ h4 {
 
 
 p {
-	font-size:0.9em;
+	font-size:1em;
+	line-height: 2em;
 }
 
 ul{
@@ -574,8 +562,12 @@ h1 {
 
 }
 
+h2 {
+	font-size:2em;
+}
+
 h3{
-	font-size: 2em;
+	font-size: 2.5em;
 
 }
 
@@ -584,25 +576,16 @@ h3{
 }
 
 #center{
-	font-size:1em;
+	font-size:1.5em;
 
 
 }
 
-.link{
-	font-size:0.8em;
-}
 
-.link-style{
-
-	font-size: 0.9em;
-	padding: 0.4em 0.6em 0.4em 0.6em;
-
-}
 
 nav {
 	
-	font-size: 1.2em;
+	font-size: 1.25em;
 	display: block;
 	text-align: center;
 	margin:0;
@@ -618,38 +601,415 @@ nav a {
 
 #gettingstarted {
 
-	border: 2px red solid;
+	border: 0px red solid;
 	padding: 2em 5em 3em 4em;
 
 }
 
 #mindfulness {
-	border: 2px red solid;
+	border: 0px red solid;
 	padding-right:10em;
 	padding-left:10em;
 
 }
 
 #common-humanity {
-	border: 2px red solid;
+	border: 0px red solid;
 	padding: 0em 10em;
 
 }
 
 #self-kindness {
 	
-	border: 3px red solid;
+	border: 0px red solid;
 	padding: 0em 10em;
 }
 
 }
 
 
+@media only screen and (min-width:980px) {
+
+.container {
+	display:none;
+
+}
+
+}
+
+@media only screen and (max-width:939px) {
+
+strong {
+	font-size:1.4em;
+}
+
+#gettingstarted {
+	border: 0px black solid;
+	padding: 1.5em;
+}
+
+#right {
+	border: 0px red solid;
+	width: 70%;
+}
+
+
+#left {
+	border: 0px red solid;
+	width: 28%;
+	
+
+}
+
+}
+
+
+@media only screen and (max-width:933px) {
+
+strong {
+	font-size: 1.3em;
+}
+
+#gettingstarted {
+	border: 0px black solid;
+	padding: 1.8em;
+
+}
+
+
+#right {
+	border: 0px red solid;
+	width: 68%;
+}
+
+
+#left {
+	border: 0px red solid;
+	width: 28%;
+	padding-left:0em;
+
+}
+
+#mindfulness {
+	border: 0px red solid;
+	padding-right: 8em;
+	padding-left: 8em;
+
+}
+
+#common-humanity {
+	border: 0px red solid;
+	padding: 0em 8em;
+
+}
+
+#self-kindness {
+	
+	border: 0px red solid;
+	padding: 0em 8em;
+}
+
+hr {
+    
+    width: 70%;
+    border-top: 1px solid #ccc;
+    
+}
+
+
+}
+
+
+
+@media only screen and (max-width:898px) {
+
+#center{
+	font-size:1.3em;
+
+}
+
+
+#gettingstarted {
+	
+    border: 0px red solid;
+    padding: 1.6em;
+
+}
+
+#right {
+	font-size: 1.15em;
+	width: 67%;
+}
+
+
+#mindfulness {
+	border: 0px red solid;
+	padding-right: 7em;
+	padding-left: 7em;
+
+}
+
+#common-humanity {
+	border: 0px red solid;
+	padding: 0em 7em;
+
+}
+
+#self-kindness {
+	
+	border: 0px red solid;
+	padding: 0em 7em;
+}
+
+hr {
+    
+    width: 72%;
+    border-top: 1px solid #ccc;
+    
+}
+}
+
+
+@media only screen and (max-width:780px) {
+
+#center {
+	font-size: 1.2em;
+}
+
+}
+
+@media only screen and (max-width:761px) {
+
+#gettingstarted {
+	
+    border: 0px red solid;
+    padding: 1.8em;
+
+}
+
+#right {
+	font-size: 1.1em;
+	width: 65%;
+	padding-right:1em;
+}
+
+
+#mindfulness {
+	border: 0px red solid;
+	padding-right: 6em;
+	padding-left: 6em;
+	font-size: 1.1em;
+
+}
+
+#common-humanity {
+	border: 0px red solid;
+	padding: 0em 6em;
+	font-size: 1.1em;
+
+}
+
+#self-kindness {
+	
+	border: 0px red solid;
+	padding: 0em 7em;
+	font-size: 1.1em;
+}
+
+hr {
+    
+    width: 75%;
+    border-top: 1px solid #ccc;
+    
+}
+
+
+}
+
+@media only screen and (min-width:740px) and (max-width: 5000px)  {
+
+.container {
+	display:none;
+
+}
+}
+
+@media only screen and (max-width:739px) {
+
+nav {
+	display:none;
+
+}
+
+#center {
+	font-size:1.1em;
+}
+
+
+h3 {
+	font-size: 1.85em;
+}
+
+}
+
+
+@media only screen and (max-width:683px) {
+
+#gettingstarted {
+	border: 0px red solid;
+	width: 100%;
+	float: none;
+	padding: 3em;
+
+}
+
+
+#left {
+	float:none;
+	margin: 0 auto;
+	width: 100%;
+	min-height:0px;
+	color: #000;
+	text-align: left;
+	padding: 0.5em 0em 0.5em 0em;
+	border: 0px red solid;
+
+	
+}
+
+
+#right {
+	float:none;
+	border: 0px black solid;
+	width: 100%;
+	min-height: 0px;
+	font-family: 'open sans';
+	font-style: bolder;
+	font-size: 1.2em;
+	color: #000;
+	margin: 0em;
+	
+}
+
+
+#mindfulness{
+	padding-right: 3em;
+	padding-left: 3em;
+	padding-top: 0em;
+	font-size: 1.2em;
+	margin-top: 0em;
+}
+
+#common-humanity{
+	padding-right: 3em;
+	padding-left: 3em;
+	padding-top: 0em;
+	font-size: 1.2em;
+	margin-top: 0em;
+}
+
+#self-kindness{
+	padding-right: 3em;
+	padding-left: 3em;
+	padding-top: 0em;
+	font-size: 1.2em;
+	margin-top: 0em;
+}
+
+
+hr {
+    
+    width: 85%;
+    border-top: 1px solid #ccc;
+    margin-top: 0 auto;
+    padding: 0em;
+    
+}
+
+h2 {
+	font-size: 2.5em;
+	padding: 0em;
+	line-height: 0em;
+}
+
+
+img{
+	display:none;
+}
+
+}
+
+#text-box{
+	border: 0px red solid;
+	width:100%;
+	padding: 1em 0em 0em 0em;
+	margin: 0 auto;
+
+}
+
+#slogan {
+	color: #333951;
+	font-weight: 300;
+	border: 0px black solid;
+	line-height: 0em;
+	width: 75%;
+	margin:0 auto;
+	background-color:;
+	text-align: center;
+	padding: 1em;
+
+	
+}
+
+#center {
+	font-size: 1.1em;
+	line-height: 1.6em;
+	border: 0px black solid;
+	display: block;
+	word-wrap: break-word;
+	width: 100%;
+	margin:0 auto;
+	padding: 0.75em 0em 0em 0em;
+	border: 0px black solid;
+
+}
+
+.link{
+	border: 0em red solid;
+	text-transform: uppercase;
+	font-family:'Montserrat';
+	letter-spacing: 0em;
+	font-weight: 400;
+	font-size: 1.2em;
+	letter-spacing: -0.05em;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.link-style {	
+	text-decoration: none;
+	color: #333951;
+	display: inline-block;
+	padding: 1.2em 0.8em 1.2em 0.8em ; 
+	background-color: #fff;
+	border: 0.2em #333951 solid;
+	margin-top: 1em;
+
+
+
+}
+
+}
 
 
 
 
-@media only screen and (max-width: 550px) and (min-width:200px) {
+@media only screen and (max-width:683px) {
+
+
+
+@media only screen and (max-width: 550px) and (min-width:100px) {
 
 h1{
 	font-size: 1.5em;
@@ -814,6 +1174,7 @@ img{
 #mindfulness {
 	border: 0px red solid;
 	width: 100%;
+	color: #000;
 	float: none;
 	padding-right:2em;
 	padding-left:2em;
@@ -864,6 +1225,7 @@ hr {
 	display: inline-block;
 	margin-top: 0.75em;
 	text-decoration: none;
+	color: #000;
 
 }
 
@@ -884,6 +1246,7 @@ hr {
 	float: none;
 	padding-right:2em;
 	padding-left:2em;
+	color: #000;
 }
 
 
@@ -893,6 +1256,7 @@ hr {
 	float: none;
 	padding-right:2em;
 	padding-left:2em;
+	color: #000;
 }
 
 
